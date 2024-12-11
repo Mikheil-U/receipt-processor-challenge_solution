@@ -32,6 +32,9 @@ http://127.0.0.1:5000
 ```
 
 # API Endpoints
+**
+Make sure that the Flask server is running. Next provide a sample JSON payload(example below), Use cURL or Postman to test the endpoint. 
+**
 ### Method: POST
 ```
 {
