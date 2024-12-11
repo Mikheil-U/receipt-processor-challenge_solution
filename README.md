@@ -33,6 +33,10 @@ http://127.0.0.1:5000
 
 # API Endpoints
 **Make sure that the Flask server is running. Next provide a sample JSON payload(example below), Use cURL or Postman to test the endpoint.**
+```
+curl -X POST http://127.0.0.1:5000/receipts/process -H "Content-Type: application/json" -d "{\"retailer\":\"Target\",\"purchaseDate\":\"2022-01-01\",\"purchaseTime\":\"15:01\",\"items\":[{\"shortDescription\":\"Mountain Dew 12PK\",\"price\":\"6.49\"},{\"shortDescription\":\"Emils Cheese Pizza\",\"price\":\"12.25\"}],\"total\":\"35.35\"}"
+
+```
 ### Method: POST
 ```
 {
@@ -71,6 +75,9 @@ pip install pytest
 python -m unittest test_processor.py
 ```
 
+# Screenshots:
+![image](https://github.com/user-attachments/assets/1f156f04-ccc9-4779-b9ec-4cda3e1ca620)
+![image](https://github.com/user-attachments/assets/b7cdd65f-8e4c-48d5-bc87-37cc854b09f5)
 
 
 
