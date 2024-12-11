@@ -6,7 +6,7 @@ We have implemented two API endpoints:
 1. Process Receipts. [POST]
 2. Get point. [GET]
 
-## Installation
+# Installation
 ### Prerequisites
 * Python 3.7+
 * pip
@@ -31,7 +31,7 @@ python app.py ($ python3 app.py for linux/macos)
 http://127.0.0.1:5000
 ```
 
-## API Endpoints
+# API Endpoints
 ### Method: POST
 ```
 {
@@ -60,7 +60,15 @@ http://127.0.0.1:5000
 }
 ```
 
-
+# To run tests:
+1. Install pytest module for Python testing.
+```
+pip install pytest
+```
+2. Run the tests:
+```
+python -m unittest test_processor.py
+```
 
 
 
